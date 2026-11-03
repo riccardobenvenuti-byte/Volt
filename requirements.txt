@@ -1,0 +1,14 @@
+# Volt Reel · librerie Python (Python 3.12 consigliato)
+# Versioni congelate: sono quelle con cui è stato provato il video di prova.
+# Si aggiornano solo di proposito, rifacendo la prova.
+numpy==2.5.3
+scipy==1.18.1
+soundfile==0.14.0
+PyYAML==6.0.3
+playwright==1.63.0
+imageio-ffmpeg==0.6.0
+# voce di prova (presa voce, motore kokoro_prova)
+kokoro-onnx==0.6.1
+onnxruntime==1.29.0
+espeakng-loader==0.2.4
+phonemizer==3.4.0

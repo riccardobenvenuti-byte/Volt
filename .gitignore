@@ -1,0 +1,17 @@
+# Dati personali e file pesanti: MAI su Git né su GitHub
+richieste/
+materiali/
+lavori/
+uscite/
+modelli/
+*.parziale*
+
+# Python
+.venv/
+__pycache__/
+*.pyc
+
+# Sistema
+.DS_Store
+Thumbs.db
+desktop.ini

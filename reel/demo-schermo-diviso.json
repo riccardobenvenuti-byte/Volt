@@ -1,0 +1,22 @@
+{
+ "formato": "volt-reel/1",
+ "id": "demo-schermo-diviso",
+ "titolo": "Demo · Schermo diviso",
+ "template": "schermo-diviso",
+ "nota": "Reel dimostrativo: fatti, luoghi e persone sono inventati (il Municipio XVI non esiste).",
+ "voce": "prova-donna",
+ "etichetta": "Demo · fatti inventati · voce IA",
+ "scene": [
+  {"id": "d1", "k": "presenter", "frame": "wide", "title": ["LA BIBLIOTECA", "CHE NON CHIUDE."], "kicker": "STORIE DAL MUNICIPIO XVI", "v": "Questa è la storia di una biblioteca che doveva chiudere.", "subs": false, "min": 3.0},
+  {"id": "d2", "k": "band", "band": "library", "shutter": [0.72, 0.95], "v": "Via dei Gelsi, Municipio sedici. Nel duemilaventiquattro la biblioteca comunale perde i fondi e abbassa la serranda.", "s": "Via dei Gelsi, Municipio XVI. Nel 2024 la biblioteca comunale *perde i fondi* e abbassa la serranda."},
+  {"id": "d3", "k": "band", "band": "closed", "v": "Per otto mesi, il quartiere resta senza un posto dove studiare.", "s": "Per *otto mesi*, il quartiere resta senza un posto dove studiare."},
+  {"id": "d4", "k": "video", "shots": ["volunteers"], "name": ["MARTA RICCI", "libraia in pensione"], "v": "Poi arriva Marta Ricci, libraia in pensione, con un'idea semplice: riaprirla con i volontari.", "s": "Poi arriva Marta Ricci, libraia in pensione, con un'idea semplice: riaprirla con i *volontari*."},
+  {"id": "d5", "k": "photo", "photo": "group", "kb": [1.0, 1.12, 0, -30], "v": "In tre settimane raccoglie quaranta persone e duemila libri donati.", "s": "In tre settimane raccoglie 40 persone e *2.000 libri* donati."},
+  {"id": "d6", "k": "presenter", "frame": "tight", "v": "E qui la storia diventa politica.", "s": "E qui la storia diventa *politica*."},
+  {"id": "d7", "k": "band", "band": "contract", "v": "Perché oggi la biblioteca è aperta, ma senza un contratto: se domani Marta si ferma, chiude di nuovo.", "s": "Perché oggi la biblioteca è aperta, ma *senza un contratto*: se domani Marta si ferma, chiude di nuovo."},
+  {"id": "d8", "k": "presenter", "frame": "wide", "v": "Il volontariato non può sostituire un servizio pubblico.", "s": "Il volontariato non può sostituire un *servizio pubblico*."},
+  {"id": "d9", "k": "band", "band": "number", "num": "3.200", "label": "PRESTITI IN UN ANNO", "v": "In un anno, tremiladuecento prestiti. Sono numeri da servizio pubblico, non da hobby.", "s": "In un anno, *3.200 prestiti*. Sono numeri da servizio pubblico, non da hobby."},
+  {"id": "d10", "k": "presenter", "frame": "wide", "punch": 0.55, "v": "Per questo chiediamo al Municipio una convenzione vera, con fondi e orari garantiti.", "s": "Per questo chiediamo al Municipio una *convenzione vera*, con fondi e orari garantiti."},
+  {"id": "d11", "k": "end", "v": "Vieni a conoscerci.", "subs": false, "trans": "band"}
+ ]
+}

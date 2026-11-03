@@ -1,0 +1,23 @@
+{
+ "formato": "volt-reel/1",
+ "id": "demo-spiegone",
+ "titolo": "Demo · Spiegone",
+ "template": "spiegone",
+ "nota": "Reel dimostrativo: fatti, luoghi e persone sono inventati (il Municipio XVI non esiste).",
+ "voce": "prova-donna",
+ "etichetta": "Demo · fatti inventati · voce IA",
+ "topic": "REGOLAMENTO TAVOLINI",
+ "scene": [
+  {"id": "s1", "k": "presenter", "frame": "wide", "title": ["TAVOLINI FUORI:", "COSA CAMBIA."], "kicker": "MUNICIPIO XVI", "v": "Tavolini all'aperto: che cosa cambia con il nuovo regolamento?", "subs": false, "min": 3.0},
+  {"id": "s2", "k": "preview", "items": ["SPAZIO", "ORARI", "CONTROLLI"], "v": "Te lo spiego in tre punti: spazio, orari e controlli.", "subs": false, "trans": "band"},
+  {"id": "s3", "k": "band", "band": "sidewalk", "chapter": ["1/3", "SPAZIO"], "v": "Uno: lo spazio. Sul marciapiede deve restare un passaggio libero di almeno un metro e mezzo.", "s": "Uno: lo spazio. Sul marciapiede deve restare un passaggio libero di almeno *1,5 metri*."},
+  {"id": "s4", "k": "presenter", "frame": "wide", "v": "È la larghezza di un passeggino, con una persona accanto.", "s": "È la larghezza di un *passeggino*, con una persona accanto."},
+  {"id": "s5", "k": "beforeafter", "v": "Prima il limite era un metro. Ora sale a un metro e mezzo, e vale anche nelle strade pedonali.", "subs": false, "trans": "band"},
+  {"id": "s6", "k": "band", "band": "hours", "chapter": ["2/3", "ORARI"], "v": "Due: gli orari. I tavolini si ritirano entro mezzanotte, ed entro l'una il venerdì e il sabato.", "s": "Due: gli orari. I tavolini si ritirano *entro mezzanotte*, ed entro l'una il venerdì e il sabato."},
+  {"id": "s7", "k": "presenter", "frame": "tight", "v": "Per chi abita sopra un locale, è una buona notizia.", "s": "Per chi abita sopra un locale, è una *buona notizia*."},
+  {"id": "s8", "k": "band", "band": "controls", "chapter": ["3/3", "CONTROLLI"], "v": "Tre: i controlli. Il Municipio dedica quattro agenti ai tavolini, e le multe arrivano a mille euro.", "s": "Tre: i controlli. Il Municipio dedica 4 agenti ai tavolini, e le multe arrivano a *1.000 euro*."},
+  {"id": "s9", "k": "recap", "items": ["SPAZIO", "ORARI", "CONTROLLI"], "title": ["TRE REGOLE", "CHIARE."], "v": "Spazio, orari, controlli: tre regole chiare per far convivere locali e residenti.", "subs": false, "trans": "band"},
+  {"id": "s10", "k": "presenter", "frame": "wide", "punch": 0.6, "v": "Un regolamento funziona solo se viene fatto rispettare. E su questo, vigileremo.", "s": "Un regolamento funziona solo se viene fatto rispettare. E su questo, *vigileremo*."},
+  {"id": "s11", "k": "end", "v": "Vieni a conoscerci.", "subs": false, "trans": "band"}
+ ]
+}

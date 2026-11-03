@@ -1,0 +1,22 @@
+{
+ "formato": "volt-reel/1",
+ "id": "demo-notizia-commentata",
+ "titolo": "Demo · Notizia commentata",
+ "template": "notizia-commentata",
+ "nota": "Reel dimostrativo: fatti, luoghi e persone sono inventati (il Municipio XVI non esiste).",
+ "voce": "prova-donna",
+ "etichetta": "Demo · fatti inventati · voce IA",
+ "scene": [
+  {"id": "n1", "k": "video", "shots": ["nightbus"], "title": ["LA 999 DI SERA", "NON PASSA PIÙ."], "v": "Dal primo dicembre, dopo le nove di sera, la linea novecentonovantanove non passerà più.", "subs": false},
+  {"id": "n2", "k": "presenter", "frame": "wide", "v": "L'ha deciso ieri il Municipio sedici. E riguarda migliaia di persone.", "s": "L'ha deciso ieri il Municipio XVI. E riguarda *migliaia di persone*."},
+  {"id": "n3", "k": "cutout", "bg": "nightstreet", "v": "La novecentonovantanove è l'unico bus che collega la stazione ai quartieri a nord. Di sera la prendono studenti e chi lavora a turni.", "s": "La 999 è *l'unico bus* che collega la stazione ai quartieri a nord. Di sera la prendono studenti e chi lavora a turni."},
+  {"id": "n4", "k": "clip", "name": ["PAOLO NERI", "assessore alla mobilità, Municipio XVI"], "credit": "Video: Il Quotidiano di Quartiere", "v": "Dobbiamo razionalizzare le risorse. Dopo le nove, la linea è poco utilizzata.", "s": "«Dobbiamo razionalizzare le risorse. Dopo le nove, la linea è *poco utilizzata*.»", "voce": "prova-uomo"},
+  {"id": "n5", "k": "presenter", "frame": "tight", "v": "Poco utilizzata? I numeri dicono il contrario.", "s": "Poco utilizzata? I numeri dicono *il contrario*."},
+  {"id": "n6", "k": "proof", "pill": "IL QUOTIDIANO DI QUARTIERE · 30 OTTOBRE", "head": "Linea 999, stop alle corse serali dal 1° dicembre", "body": ["Il Municipio XVI taglia le partenze dopo le 21.", "Nelle ore serali la linea trasporta circa 1.800 passeggeri a settimana, secondo i dati dell'azienda.", "Proteste dei comitati di quartiere."], "hl": 1, "v": "Lo scrive lo stesso Quotidiano di Quartiere: la sera, la linea trasporta milleottocento passeggeri a settimana.", "subs": false},
+  {"id": "n7", "k": "corner", "shots": ["students", "nurse", "shop"], "cuts": [0, 0.3, 0.52], "v": "Studenti che tornano dall'università, infermieri a fine turno, chi chiude il negozio. Persone senza alternative.", "s": "Studenti che tornano dall'università, infermieri a fine turno, chi chiude il negozio. Persone *senza alternative*."},
+  {"id": "n8", "k": "presenter", "frame": "wide", "card": {"num": "1 SU 3", "label": ["DEI PASSEGGERI SERALI", "È UNO STUDENTE"], "source": "Fonte: Il Quotidiano di Quartiere"}, "v": "E uno su tre è uno studente.", "subs": false, "min": 3.0},
+  {"id": "n9", "k": "presenter", "frame": "wide", "punch": 0.52, "v": "Tagliare le corse non è un risparmio: sposta il costo sulle persone. Noi proponiamo bus a chiamata, come in tante città europee.", "s": "Tagliare le corse non è un risparmio: sposta il costo sulle persone. Noi proponiamo *bus a chiamata*, come in tante città europee."},
+  {"id": "n10", "k": "presenter", "frame": "wide", "question": ["COME TORNI A CASA", "LA SERA?"], "qsub": "Scrivicelo nei commenti", "v": "E tu, come torni a casa la sera? Scrivicelo nei commenti.", "subs": false},
+  {"id": "n11", "k": "end", "v": "Vieni a conoscerci.", "subs": false, "trans": "band"}
+ ]
+}

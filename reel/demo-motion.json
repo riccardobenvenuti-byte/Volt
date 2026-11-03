@@ -1,0 +1,21 @@
+{
+ "formato": "volt-reel/1",
+ "id": "demo-motion",
+ "titolo": "Demo · Motion",
+ "template": "motion",
+ "nota": "Reel dimostrativo: fatti, luoghi e persone sono inventati (il Municipio XVI non esiste).",
+ "voce": "prova-uomo",
+ "etichetta": "Demo · fatti inventati · voce IA",
+ "scene": [
+  {"id": "m1", "k": "title_photo", "v": "Due milioni di euro. E questa volta, a decidere come spenderli, sei tu.", "title": ["2 MILIONI", "LI DECIDI TU."], "kicker": "MUNICIPIO XVI", "photo": "piazza", "subs": false, "min": 3.2},
+  {"id": "m2", "k": "photo", "photo": "piazza", "kb": [1.1, 1.0, -40, 0], "v": "Nel Municipio sedici parte il bilancio partecipativo: chi abita qui propone e vota i progetti per il quartiere.", "s": "Nel Municipio XVI parte il *bilancio partecipativo*: chi abita qui propone e vota i progetti per il quartiere."},
+  {"id": "m3", "k": "bignum", "num": 15, "suffix": "%", "label": ["DEGLI INVESTIMENTI", "DEL 2027"], "source": "Fonte: delibera n. 47/2026 del Municipio XVI", "v": "Il quindici per cento degli investimenti del prossimo anno passa direttamente da voi.", "subs": false},
+  {"id": "m4", "k": "video", "shots": ["bench", "flowers", "school"], "cuts": [0, 0.25, 0.47], "v": "Una panchina nuova, un'aiuola curata, un attraversamento sicuro davanti alla scuola.", "s": "Una panchina nuova, un'aiuola curata, un attraversamento sicuro davanti alla *scuola*."},
+  {"id": "m5", "k": "steps", "cards": [{"n": "1/3", "t": "PROPONI", "b": "Un'idea per il quartiere, entro il 30 novembre", "icon": "bulb"}], "v": "Primo: proponi un'idea entro il trenta novembre. Basta un modulo online.", "subs": false, "trans": "band"},
+  {"id": "m6", "k": "steps", "keep": 1, "cards": [{"n": "1/3", "t": "PROPONI", "b": "Un'idea per il quartiere, entro il 30 novembre", "icon": "bulb"}, {"n": "2/3", "t": "VERIFICA", "b": "Gli uffici controllano costi e fattibilità", "icon": "check", "at": 0.0}, {"n": "3/3", "t": "VOTA", "b": "Online con lo SPID, a gennaio", "icon": "ballot", "at": 0.47}], "v": "Secondo: gli uffici verificano costi e fattibilità. Terzo: a gennaio si vota online, con lo SPID.", "subs": false},
+  {"id": "m7", "k": "map", "v": "Ogni progetto approvato finisce su una mappa pubblica, e puoi seguirlo fino all'inaugurazione.", "s": "Ogni progetto approvato finisce su una *mappa pubblica*, e puoi seguirlo fino all'inaugurazione."},
+  {"id": "m8", "k": "proof", "pill": "MUNICIPIO XVI · DELIBERA N. 47/2026", "head": "Regolamento del bilancio partecipativo", "body": ["Art. 3 · Risorse", "Il 15% delle risorse per investimenti è destinato a progetti proposti e votati dai cittadini residenti nel Municipio.", "Le proposte si presentano entro il 30 novembre."], "hl": 1, "v": "Lo prevede la delibera numero quarantasette del Municipio, approvata il ventiquattro ottobre.", "subs": false},
+  {"id": "m9", "k": "pills", "pills": ["PROPONI", "VOTA", "CONTROLLA"], "title": ["IL QUARTIERE", "È ANCHE TUO."], "v": "Proponi. Vota. Controlla. Il quartiere è anche tuo.", "subs": false},
+  {"id": "m10", "k": "end", "v": "Vieni a conoscerci.", "subs": false, "trans": "band"}
+ ]
+}

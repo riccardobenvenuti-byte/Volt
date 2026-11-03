@@ -1,0 +1,60 @@
+# Volt Reel · quale motore usa ogni «presa»
+#
+# Ogni compito di IA è una presa con ingresso e uscita fissi (volt_reel/prese/contratti.py).
+# Template e montaggio usano solo le prese e non sanno quale modello c'è dietro.
+#
+# CAMBIARE MODELLO = cambiare il valore di «attivo» della presa.
+# Il motore precedente resta in elenco: per tornare indietro si rimette il valore di prima.
+# Un motore nuovo si aggiunge con il suo adattatore («modulo:Classe»), dopo aver verificato la
+# licenza e superato il banco di prova (vedi CLAUDE.md, «Cambiare modello»).
+
+voce:
+  attivo: kokoro_prova
+  motori:
+    kokoro_prova:
+      adattatore: volt_reel.prese.voce_kokoro:VoceKokoro
+      descrizione: Voce sintetica generica, solo per le prove. Non è la voce di nessuno.
+      licenza: Apache-2.0 (modello Kokoro-82M) · MIT (kokoro-onnx)
+      dove: PC, senza GPU
+      file:
+        modello: modelli/kokoro/kokoro-v1.0.int8.onnx
+        voci: modelli/kokoro/voices-v1.0.bin
+      profili:
+        prova-donna: {voce: if_sara, velocita: 1.08}
+        prova-uomo: {voce: im_nicola, velocita: 1.10}
+    chatterbox:
+      adattatore: volt_reel.prese.voce_chatterbox:VoceChatterbox
+      descrizione: Chatterbox Multilingual, voce clonata dal kit master della persona. Si collega nell'ordine 10.
+      licenza: MIT
+      dove: RunPod, datacenter europeo
+      profili: {}
+
+allineamento:
+  attivo: proporzionale
+  motori:
+    proporzionale:
+      adattatore: volt_reel.prese.allineamento_proporzionale:AllineamentoProporzionale
+      descrizione: Divide il tempo di ogni frase in proporzione al testo. Basta finché la voce si genera una frase alla volta.
+      licenza: codice del progetto
+      dove: PC
+
+volto:
+  attivo: nessuno
+  motori:
+    nessuno:
+      adattatore: volt_reel.prese.nessuno:Nessuno
+      descrizione: Nessun avatar. Il modello del volto si sceglie con il banco di prova dell'ordine 10 (LatentSync 1.6 o InfiniteTalk).
+
+ritaglio:
+  attivo: nessuno
+  motori:
+    nessuno:
+      adattatore: volt_reel.prese.nessuno:Nessuno
+      descrizione: Nessuno scontorno per ora.
+
+ingrandimento:
+  attivo: nessuno
+  motori:
+    nessuno:
+      adattatore: volt_reel.prese.nessuno:Nessuno
+      descrizione: Nessun ingrandimento per ora.
